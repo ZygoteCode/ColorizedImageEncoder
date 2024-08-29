@@ -16,11 +16,7 @@ public class ColorizedImageTranslator
 
         byte[] completeData = BitConverter.GetBytes(data.Length);
 
-        completeData = Combine(completeData, GetMD5(data));
-        completeData = Combine(completeData, new byte[1] { 89 });
-        completeData = Combine(completeData, data);
-        completeData = Combine(completeData, new byte[1] { 0xF8 });
-
+        completeData = Combine(completeData, GetMD5(data), new byte[1] { 89 }, data, new byte[1] { 0xF8 });
         int totalLength = completeData.Length;
         Bitmap bitmap = new Bitmap(imageWidth, imageHeight);
         int initialIndex = 0;
@@ -133,22 +129,9 @@ public class ColorizedImageTranslator
             }
 
             byte[] completeData = BitConverter.GetBytes(data.Length);
-
-            completeData = Combine(completeData, GetMD5(data));
-            completeData = Combine(completeData, new byte[1] { 54 });
-
             byte[] fileNameBytes = Encoding.UTF8.GetBytes(fileName);
             byte[] fileExtensionBytes = Encoding.UTF8.GetBytes(fileExtension);
-
-            completeData = Combine(completeData, BitConverter.GetBytes(fileNameBytes.Length));
-            completeData = Combine(completeData, fileNameBytes);
-
-            completeData = Combine(completeData, BitConverter.GetBytes(fileExtension.Length));
-            completeData = Combine(completeData, fileExtensionBytes);
-
-            completeData = Combine(completeData, data);
-            completeData = Combine(completeData, new byte[1] { 0xF8 });
-
+            completeData = Combine(completeData, GetMD5(data), new byte[1] { 54 }, BitConverter.GetBytes(fileNameBytes.Length), fileNameBytes, BitConverter.GetBytes(fileExtension.Length), fileExtensionBytes, data, new byte[1] { 0xF8 });
             int totalLength = completeData.Length;
             Bitmap bitmap = new Bitmap(imageWidth, imageHeight);
             int initialIndex = 0;
@@ -274,13 +257,15 @@ public class ColorizedImageTranslator
         }
     }
 
-    private static byte[] Combine(byte[] first, byte[] second)
+    public static byte[] Combine(params byte[][] arrays)
     {
-        byte[] ret = new byte[first.Length + second.Length];
-
-        Buffer.BlockCopy(first, 0, ret, 0, first.Length);
-        Buffer.BlockCopy(second, 0, ret, first.Length, second.Length);
-
+        byte[] ret = new byte[arrays.Sum(x => x.Length)];
+        int offset = 0;
+        foreach (byte[] data in arrays)
+        {
+            Buffer.BlockCopy(data, 0, ret, offset, data.Length);
+            offset += data.Length;
+        }
         return ret;
     }
 

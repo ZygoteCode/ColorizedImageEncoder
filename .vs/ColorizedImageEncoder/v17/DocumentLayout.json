@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|c:\\users\\bolog\\desktop\\colorizedimageencoder\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|c:\\users\\bolog\\desktop\\colorizedimageencoder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|c:\\users\\bolog\\desktop\\colorizedimageencoder\\colorizedimagetranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C73F5C9-BC03-4F43-B749-F0AA400E3A6D}|ColorizedImageEncoder.csproj|solutionrelative:colorizedimagetranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:54:46.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:54:43.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColorizedImageTranslator.cs",
+              "DocumentMoniker": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\ColorizedImageTranslator.cs",
+              "RelativeDocumentMoniker": "ColorizedImageTranslator.cs",
+              "ToolTip": "C:\\Users\\bolog\\Desktop\\ColorizedImageEncoder\\ColorizedImageTranslator.cs",
+              "RelativeToolTip": "ColorizedImageTranslator.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAcwIYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:52:40.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

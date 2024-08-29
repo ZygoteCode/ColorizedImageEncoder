@@ -1,0 +1,14 @@
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\ColorizedImageEncoder.exe.config
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\ColorizedImageEncoder.exe
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\ColorizedImageEncoder.pdb
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\Guna.UI.dll
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\MetroSuite 2.0.dll
+C:\Users\bolog\Desktop\ColorizedImageEncoder\bin\Release\Siticone.UI.dll
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.csproj.AssemblyReference.cache
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\MainForm.resources
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.Properties.Resources.resources
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.csproj.GenerateResource.cache
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.csproj.CoreCompileInputs.cache
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\Colorize.5F56BB71.Up2Date
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.exe
+C:\Users\bolog\Desktop\ColorizedImageEncoder\obj\Release\ColorizedImageEncoder.pdb
